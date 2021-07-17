@@ -1,0 +1,88 @@
+
+.img-aboutme{
+    margin-top: 54px;
+    background: url(../../assets/home/image-homepage-hero.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.aboutme{
+    width:445px;
+    background-color: #FFFFFF;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.4464285671710968px;
+    text-align: left;
+    color: #33323D;
+}
+.me{
+    padding:56px 28px;
+}
+
+.btn a{
+    text-decoration: none;
+    background-color: #203A4C;
+    color:#FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    gap:30px;
+    padding:17 17px;
+}
+.btn a:hover{
+    background:#5FB4A2;
+}
+.btn a:hover svg{
+    stroke:white;
+}
+.down-arrow{
+    padding: 18px 16px;
+    background-color:rgba(0, 0,0,0.1);
+}
+svg{
+    stroke:#5FB4A2;
+}
+.btn{
+    width:200px;
+}
+.personal{
+    display:flex;
+    margin-top: 149px;
+    gap:140px;
+}
+
+.personal-box{
+    padding: 51px 0px 46px;
+    border-top:1px solid rgba(128, 128, 128,0.15);
+    border-bottom:1px solid rgba(128, 128, 128,0.15);
+}
+.personal-box h1{
+    margin-bottom: 28px;   
+}
+.center-btn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-portfolio{
+    margin-top: 24px;
+    width:210px;
+}
+.btn-portfolio a{
+    padding: 17px 28px;
+    border:1px solid black;
+}
+.btn-portfolio a:hover{
+    background-color: #33323D;
+    color: #FAFAFA;
+}

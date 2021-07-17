@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.contain{
+    padding:64px 125px 0px 125px;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.head img{
+    cursor:pointer;
+}
+.list{
+    display:flex;
+    list-style-type: none;
+    align-items:center;
+}
+.pages a.verde{
+    color: #5FB4A2;
+}
+.pages a{
+    font-family: 'Public Sans', sans-serif;
+    color: #33323D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.pages{
+    margin-left: 43px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+}
+.right-left-picture{
+    width:50%;
+}
+.right-left-info{
+    width: 50%;
+}
+.personal-box h1{
+    margin-bottom: 28px;   
+}
+.paragraph p{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #33323D;
+}
+.project-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.project-contact-portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 115px;
+}
+.tittle h1{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    color: #33323D;
+
+}
+.format-tittle h1{
+    width:450px;
+}
+
+.btn-geral{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+.btn-geral a{
+    color: #33323D;
+}
+.btn-contact{
+    width:168px;
+}
+.btn-contact a{
+    all:unset;
+    box-sizing: border-box;
+    padding: 17px 50px;
+    cursor: pointer;
+    border:1px solid black;
+}
+
+.btn-contact a:hover{
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+footer{
+    background-color: #33323D;
+    padding:24px 125px;
+    margin-top: 150px;
+}
+
+.footer-config{
+    display:flex;
+    justify-content: space-between;
+}
+.social-icons{
+    margin-left: 15px;
+}
+.logo-pages{
+    display:flex;
+    align-items: center;
+}
+.pages-footer{
+    margin-left: 48px;
+}
+.footer-list{
+    display:flex;
+    list-style-type: none;
+    align-items:center;
+}
+.footer a{
+    margin-left:42px;
+    color:#FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.personal-port{
+    display:flex;
+    gap:125px;
+}

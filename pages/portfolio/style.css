@@ -1,0 +1,23 @@
+.contain-conteudo{
+    padding: 94px 172px 0px 172px;
+}
+.personal-box{
+    padding: 103px 0px 103px;
+    border-top:1px solid rgba(128, 128, 128,0.15);
+    border-bottom:1px solid rgba(128, 128, 128,0.15);
+}
+.btn-projeto{
+    margin-top: 54px;
+    width:186px;
+}
+.btn-projeto a{
+    padding: 17px 38px;
+    border:1px solid black;
+}
+.btn-projeto a:hover{
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+.space-box{
+    margin-top:80px;
+}
